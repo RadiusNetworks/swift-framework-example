@@ -18,7 +18,6 @@
 		D8AA990419E4769200CEAFA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8AA990219E4769200CEAFA5 /* Main.storyboard */; };
 		D8AA990619E4769200CEAFA5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8AA990519E4769200CEAFA5 /* Images.xcassets */; };
 		D8AA990919E4769200CEAFA5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8AA990719E4769200CEAFA5 /* LaunchScreen.xib */; };
-		D8AA991519E4769200CEAFA5 /* SwiftAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AA991419E4769200CEAFA5 /* SwiftAppTests.swift */; };
 		D8AA991C19E476A400CEAFA5 /* SimpleFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8AA98CE19E4665900CEAFA5 /* SimpleFramework.framework */; };
 		D8AA991D19E476A400CEAFA5 /* SimpleFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D8AA98CE19E4665900CEAFA5 /* SimpleFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D8AA992A19E47B0C00CEAFA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8AA992919E47B0C00CEAFA5 /* main.m */; };
@@ -27,7 +26,6 @@
 		D8AA993319E47B0C00CEAFA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8AA993119E47B0C00CEAFA5 /* Main.storyboard */; };
 		D8AA993519E47B0C00CEAFA5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8AA993419E47B0C00CEAFA5 /* Images.xcassets */; };
 		D8AA993819E47B0C00CEAFA5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8AA993619E47B0C00CEAFA5 /* LaunchScreen.xib */; };
-		D8AA994419E47B0C00CEAFA5 /* ObjCAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8AA994319E47B0C00CEAFA5 /* ObjCAppTests.m */; };
 		D8AA994B19E47B2000CEAFA5 /* SimpleFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8AA98CE19E4665900CEAFA5 /* SimpleFramework.framework */; };
 		D8AA994C19E47B2000CEAFA5 /* SimpleFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D8AA98CE19E4665900CEAFA5 /* SimpleFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -40,26 +38,12 @@
 			remoteGlobalIDString = D8AA98CD19E4665900CEAFA5;
 			remoteInfo = SimpleFramework;
 		};
-		D8AA990F19E4769200CEAFA5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D8AA98C519E4665900CEAFA5 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D8AA98F919E4769200CEAFA5;
-			remoteInfo = SwiftApp;
-		};
 		D8AA991E19E476A400CEAFA5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D8AA98C519E4665900CEAFA5 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D8AA98CD19E4665900CEAFA5;
 			remoteInfo = SimpleFramework;
-		};
-		D8AA993E19E47B0C00CEAFA5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D8AA98C519E4665900CEAFA5 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D8AA992419E47B0C00CEAFA5;
-			remoteInfo = ObjCApp;
 		};
 		D8AA994D19E47B2000CEAFA5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -112,9 +96,6 @@
 		D8AA990319E4769200CEAFA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D8AA990519E4769200CEAFA5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D8AA990819E4769200CEAFA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		D8AA990E19E4769200CEAFA5 /* SwiftAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D8AA991319E4769200CEAFA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D8AA991419E4769200CEAFA5 /* SwiftAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAppTests.swift; sourceTree = "<group>"; };
 		D8AA992519E47B0C00CEAFA5 /* ObjCApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjCApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8AA992819E47B0C00CEAFA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8AA992919E47B0C00CEAFA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -125,9 +106,6 @@
 		D8AA993219E47B0C00CEAFA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D8AA993419E47B0C00CEAFA5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D8AA993719E47B0C00CEAFA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		D8AA993D19E47B0C00CEAFA5 /* ObjCAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjCAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D8AA994219E47B0C00CEAFA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D8AA994319E47B0C00CEAFA5 /* ObjCAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjCAppTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,25 +132,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D8AA990B19E4769200CEAFA5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D8AA992219E47B0C00CEAFA5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D8AA994B19E47B2000CEAFA5 /* SimpleFramework.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D8AA993A19E47B0C00CEAFA5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,9 +149,7 @@
 				D8AA98D019E4665900CEAFA5 /* SimpleFramework */,
 				D8AA98DA19E4665900CEAFA5 /* SimpleFrameworkTests */,
 				D8AA98FB19E4769200CEAFA5 /* SwiftApp */,
-				D8AA991119E4769200CEAFA5 /* SwiftAppTests */,
 				D8AA992619E47B0C00CEAFA5 /* ObjCApp */,
-				D8AA994019E47B0C00CEAFA5 /* ObjCAppTests */,
 				D8AA98CF19E4665900CEAFA5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -198,9 +160,7 @@
 				D8AA98CE19E4665900CEAFA5 /* SimpleFramework.framework */,
 				D8AA98D919E4665900CEAFA5 /* SimpleFrameworkTests.xctest */,
 				D8AA98FA19E4769200CEAFA5 /* SwiftApp.app */,
-				D8AA990E19E4769200CEAFA5 /* SwiftAppTests.xctest */,
 				D8AA992519E47B0C00CEAFA5 /* ObjCApp.app */,
-				D8AA993D19E47B0C00CEAFA5 /* ObjCAppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -263,23 +223,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		D8AA991119E4769200CEAFA5 /* SwiftAppTests */ = {
-			isa = PBXGroup;
-			children = (
-				D8AA991419E4769200CEAFA5 /* SwiftAppTests.swift */,
-				D8AA991219E4769200CEAFA5 /* Supporting Files */,
-			);
-			path = SwiftAppTests;
-			sourceTree = "<group>";
-		};
-		D8AA991219E4769200CEAFA5 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				D8AA991319E4769200CEAFA5 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		D8AA992619E47B0C00CEAFA5 /* ObjCApp */ = {
 			isa = PBXGroup;
 			children = (
@@ -300,23 +243,6 @@
 			children = (
 				D8AA992819E47B0C00CEAFA5 /* Info.plist */,
 				D8AA992919E47B0C00CEAFA5 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		D8AA994019E47B0C00CEAFA5 /* ObjCAppTests */ = {
-			isa = PBXGroup;
-			children = (
-				D8AA994319E47B0C00CEAFA5 /* ObjCAppTests.m */,
-				D8AA994119E47B0C00CEAFA5 /* Supporting Files */,
-			);
-			path = ObjCAppTests;
-			sourceTree = "<group>";
-		};
-		D8AA994119E47B0C00CEAFA5 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				D8AA994219E47B0C00CEAFA5 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -391,24 +317,6 @@
 			productReference = D8AA98FA19E4769200CEAFA5 /* SwiftApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D8AA990D19E4769200CEAFA5 /* SwiftAppTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D8AA991919E4769200CEAFA5 /* Build configuration list for PBXNativeTarget "SwiftAppTests" */;
-			buildPhases = (
-				D8AA990A19E4769200CEAFA5 /* Sources */,
-				D8AA990B19E4769200CEAFA5 /* Frameworks */,
-				D8AA990C19E4769200CEAFA5 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D8AA991019E4769200CEAFA5 /* PBXTargetDependency */,
-			);
-			name = SwiftAppTests;
-			productName = SwiftAppTests;
-			productReference = D8AA990E19E4769200CEAFA5 /* SwiftAppTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		D8AA992419E47B0C00CEAFA5 /* ObjCApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D8AA994519E47B0C00CEAFA5 /* Build configuration list for PBXNativeTarget "ObjCApp" */;
@@ -428,24 +336,6 @@
 			productReference = D8AA992519E47B0C00CEAFA5 /* ObjCApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D8AA993C19E47B0C00CEAFA5 /* ObjCAppTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D8AA994819E47B0C00CEAFA5 /* Build configuration list for PBXNativeTarget "ObjCAppTests" */;
-			buildPhases = (
-				D8AA993919E47B0C00CEAFA5 /* Sources */,
-				D8AA993A19E47B0C00CEAFA5 /* Frameworks */,
-				D8AA993B19E47B0C00CEAFA5 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D8AA993F19E47B0C00CEAFA5 /* PBXTargetDependency */,
-			);
-			name = ObjCAppTests;
-			productName = ObjCAppTests;
-			productReference = D8AA993D19E47B0C00CEAFA5 /* ObjCAppTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -464,16 +354,8 @@
 					D8AA98F919E4769200CEAFA5 = {
 						CreatedOnToolsVersion = 6.0.1;
 					};
-					D8AA990D19E4769200CEAFA5 = {
-						CreatedOnToolsVersion = 6.0.1;
-						TestTargetID = D8AA98F919E4769200CEAFA5;
-					};
 					D8AA992419E47B0C00CEAFA5 = {
 						CreatedOnToolsVersion = 6.0.1;
-					};
-					D8AA993C19E47B0C00CEAFA5 = {
-						CreatedOnToolsVersion = 6.0.1;
-						TestTargetID = D8AA992419E47B0C00CEAFA5;
 					};
 				};
 			};
@@ -493,9 +375,7 @@
 				D8AA98CD19E4665900CEAFA5 /* SimpleFramework */,
 				D8AA98D819E4665900CEAFA5 /* SimpleFrameworkTests */,
 				D8AA98F919E4769200CEAFA5 /* SwiftApp */,
-				D8AA990D19E4769200CEAFA5 /* SwiftAppTests */,
 				D8AA992419E47B0C00CEAFA5 /* ObjCApp */,
-				D8AA993C19E47B0C00CEAFA5 /* ObjCAppTests */,
 			);
 		};
 /* End PBXProject section */
@@ -525,13 +405,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D8AA990C19E4769200CEAFA5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D8AA992319E47B0C00CEAFA5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -539,13 +412,6 @@
 				D8AA993319E47B0C00CEAFA5 /* Main.storyboard in Resources */,
 				D8AA993819E47B0C00CEAFA5 /* LaunchScreen.xib in Resources */,
 				D8AA993519E47B0C00CEAFA5 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D8AA993B19E47B0C00CEAFA5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -578,14 +444,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D8AA990A19E4769200CEAFA5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D8AA991519E4769200CEAFA5 /* SwiftAppTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D8AA992119E47B0C00CEAFA5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -593,14 +451,6 @@
 				D8AA993019E47B0C00CEAFA5 /* ViewController.m in Sources */,
 				D8AA992D19E47B0C00CEAFA5 /* AppDelegate.m in Sources */,
 				D8AA992A19E47B0C00CEAFA5 /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D8AA993919E47B0C00CEAFA5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D8AA994419E47B0C00CEAFA5 /* ObjCAppTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -612,20 +462,10 @@
 			target = D8AA98CD19E4665900CEAFA5 /* SimpleFramework */;
 			targetProxy = D8AA98F319E473DA00CEAFA5 /* PBXContainerItemProxy */;
 		};
-		D8AA991019E4769200CEAFA5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D8AA98F919E4769200CEAFA5 /* SwiftApp */;
-			targetProxy = D8AA990F19E4769200CEAFA5 /* PBXContainerItemProxy */;
-		};
 		D8AA991F19E476A400CEAFA5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D8AA98CD19E4665900CEAFA5 /* SimpleFramework */;
 			targetProxy = D8AA991E19E476A400CEAFA5 /* PBXContainerItemProxy */;
-		};
-		D8AA993F19E47B0C00CEAFA5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D8AA992419E47B0C00CEAFA5 /* ObjCApp */;
-			targetProxy = D8AA993E19E47B0C00CEAFA5 /* PBXContainerItemProxy */;
 		};
 		D8AA994E19E47B2000CEAFA5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -842,40 +682,6 @@
 			};
 			name = Release;
 		};
-		D8AA991A19E4769200CEAFA5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SwiftAppTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftApp.app/SwiftApp";
-			};
-			name = Debug;
-		};
-		D8AA991B19E4769200CEAFA5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SwiftAppTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftApp.app/SwiftApp";
-			};
-			name = Release;
-		};
 		D8AA994619E47B0C00CEAFA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -899,40 +705,6 @@
 				INFOPLIST_FILE = ObjCApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		D8AA994919E47B0C00CEAFA5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ObjCAppTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ObjCApp.app/ObjCApp";
-			};
-			name = Debug;
-		};
-		D8AA994A19E47B0C00CEAFA5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ObjCAppTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ObjCApp.app/ObjCApp";
 			};
 			name = Release;
 		};
@@ -972,27 +744,11 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		D8AA991919E4769200CEAFA5 /* Build configuration list for PBXNativeTarget "SwiftAppTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D8AA991A19E4769200CEAFA5 /* Debug */,
-				D8AA991B19E4769200CEAFA5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
 		D8AA994519E47B0C00CEAFA5 /* Build configuration list for PBXNativeTarget "ObjCApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D8AA994619E47B0C00CEAFA5 /* Debug */,
 				D8AA994719E47B0C00CEAFA5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		D8AA994819E47B0C00CEAFA5 /* Build configuration list for PBXNativeTarget "ObjCAppTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D8AA994919E47B0C00CEAFA5 /* Debug */,
-				D8AA994A19E47B0C00CEAFA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
