@@ -21,16 +21,8 @@ class SimpleFrameworkTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        XCTAssert(true, "Pass")
+    func testSimpleClass() {
+      let simpleInstance = SimpleClass("Hello, Framework")
+      simpleInstance.printMessage()
     }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measureBlock() {
-            // Put the code you want to measure the time of here.
-        }
-    }
-    
 }

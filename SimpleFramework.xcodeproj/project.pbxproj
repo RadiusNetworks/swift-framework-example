@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		D8AA98D419E4665900CEAFA5 /* SimpleFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = D8AA98D319E4665900CEAFA5 /* SimpleFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8AA98DE19E4665900CEAFA5 /* SimpleFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AA98DD19E4665900CEAFA5 /* SimpleFrameworkTests.swift */; };
+		D8AA98ED19E46E0A00CEAFA5 /* SimpleClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AA98EC19E46E0A00CEAFA5 /* SimpleClass.swift */; };
+		D8AA98EE19E46E0A00CEAFA5 /* SimpleClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AA98EC19E46E0A00CEAFA5 /* SimpleClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +20,7 @@
 		D8AA98D919E4665900CEAFA5 /* SimpleFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8AA98DC19E4665900CEAFA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8AA98DD19E4665900CEAFA5 /* SimpleFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleFrameworkTests.swift; sourceTree = "<group>"; };
+		D8AA98EC19E46E0A00CEAFA5 /* SimpleClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				D8AA98D319E4665900CEAFA5 /* SimpleFramework.h */,
+				D8AA98EC19E46E0A00CEAFA5 /* SimpleClass.swift */,
 				D8AA98D119E4665900CEAFA5 /* Supporting Files */,
 			);
 			path = SimpleFramework;
@@ -196,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8AA98ED19E46E0A00CEAFA5 /* SimpleClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +208,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8AA98EE19E46E0A00CEAFA5 /* SimpleClass.swift in Sources */,
 				D8AA98DE19E4665900CEAFA5 /* SimpleFrameworkTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,6 +304,7 @@
 		D8AA98E219E4665900CEAFA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -307,12 +314,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		D8AA98E319E4665900CEAFA5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
