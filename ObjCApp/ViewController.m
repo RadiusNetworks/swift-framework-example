@@ -17,10 +17,8 @@
 
 - (void)viewDidLoad {
   [super viewDidLoad];
-  SimpleClass *sc = [[SimpleClass alloc] init:@"Dammit Objective C!!!"];
+  SimpleClass *sc = [[SimpleClass alloc] init:@"Hello Swift framework from Objective C!!!"];
   [sc printMessage];
-  
-  // Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)didReceiveMemoryWarning {

@@ -13,7 +13,7 @@ class ViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    let sc = SimpleClass("Dammit Swift!!!")
+    let sc = SimpleClass("Hello Swift framework from Swift!!!")
     sc.printMessage()
   }
 

@@ -106,6 +106,7 @@
 		D8AA993219E47B0C00CEAFA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D8AA993419E47B0C00CEAFA5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D8AA993719E47B0C00CEAFA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D8AA995019E4801700CEAFA5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +147,7 @@
 		D8AA98C419E4665900CEAFA5 = {
 			isa = PBXGroup;
 			children = (
+				D8AA995019E4801700CEAFA5 /* README.md */,
 				D8AA98D019E4665900CEAFA5 /* SimpleFramework */,
 				D8AA98DA19E4665900CEAFA5 /* SimpleFrameworkTests */,
 				D8AA98FB19E4769200CEAFA5 /* SwiftApp */,
