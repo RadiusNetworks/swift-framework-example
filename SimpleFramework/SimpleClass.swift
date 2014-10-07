@@ -8,15 +8,16 @@
 
 import UIKit
 
-class SimpleClass: NSObject {
+public class SimpleClass: NSObject {
   
   var message: String
+  var object: SFClass = SFClass()
   
-  init(_ newMessage: String) {
+  public init(_ newMessage: String) {
     self.message = newMessage
   }
   
-  func printMessage() {
-    NSLog(self.message)
+  public func printMessage() {
+    object.printMessage(self.message)
   }
 }
